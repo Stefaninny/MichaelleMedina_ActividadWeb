@@ -15,5 +15,16 @@ public class HomePage extends PageObject {
             .located(By.id("sign-password"));
     public static final Target BTN_REGISTER = Target.the("Registrar Usuario")
             .located(By.xpath("//button[text()='Sign up']"));
+    //Login
+    public static final Target BTN_LOGIN = Target.the("Botón Login")
+            .located(By.id("login2"));
+    public static final Target TXT_LOGIN_USER = Target.the("Usuario Login")
+            .located(By.id("loginusername"));
+    public static final Target TXT_LOGIN_PASSWORD = Target.the("Contraseña Login")
+            .located(By.id("loginpassword"));
+    public static final Target BTN_LOGIN_MODAL = Target.the("Botón Ingresar")
+            .located(By.xpath("//button[text()='Log in']"));
+    public static final Target TXT_WELCOME = Target.the("Mensaje de bienvenida")
+            .located(By.id("nameofuser"));
 
 }

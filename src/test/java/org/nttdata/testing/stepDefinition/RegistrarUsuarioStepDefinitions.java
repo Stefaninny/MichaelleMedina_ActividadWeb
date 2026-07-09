@@ -8,6 +8,7 @@ import org.nttdata.testing.Tasks.NavigateTo;
 import org.nttdata.testing.Tasks.RegistrarUsuario;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
+
 public class RegistrarUsuarioStepDefinitions {
     @Given("el {actor} esta en la pagina de inicio")
     public void elUsuarioEstaEnLaPaginaDeInicio(Actor actor) {
