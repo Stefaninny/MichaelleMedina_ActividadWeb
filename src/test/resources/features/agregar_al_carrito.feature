@@ -1,5 +1,5 @@
 Feature: Agregar producto al carrito
-  @Carrito
+  @AgregarCarrito
   Scenario: Agregar producto al carrito
     Given el usuario esta en la pagina de inicio
     When agrega un producto al carrito

@@ -8,8 +8,6 @@ import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import org.nttdata.testing.Pages.HomePage;
 
-import java.time.Duration;
-
 public class AgregarCarrito implements Task{
     @Override
     public <T extends Actor> void performAs(T actor) {
