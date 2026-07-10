@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 
 @DefaultUrl("https://www.demoblaze.com/")
 public class HomePage extends PageObject {
+    //Registrar Usuario
     public static final Target BTN_SIGN_UP = Target.the("Boton para hacer el registro")
             .located(By.id("signin2"));
     public static final Target USER_NAME = Target.the("Campo de usuario")
@@ -26,5 +27,13 @@ public class HomePage extends PageObject {
             .located(By.xpath("//button[text()='Log in']"));
     public static final Target TXT_WELCOME = Target.the("Mensaje de bienvenida")
             .located(By.id("nameofuser"));
-
+    //Agregar Carrito
+    public static final Target LNK_PRODUCT = Target.the("Producto Iphone 6 32gb")
+            .located(By.linkText("Iphone 6 32gb"));
+    public static final Target BTN_ADD_TO_CART = Target.the("Botón Add to cart")
+            .located(By.linkText("Add to cart"));
+    public static final Target BTN_CART = Target.the("Botón Cart")
+            .located(By.id("cartur"));
+    public static final Target PRODUCTO_CARRITO = Target.the("Producto agregado al carrito")
+            .located(By.xpath("//td[text()='Iphone 6 32gb']"));
 }
